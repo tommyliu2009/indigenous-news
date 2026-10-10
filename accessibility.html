@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>無障礙｜原住民全球新聞網</title>
+<meta name="description" content="原住民全球新聞網的無障礙做法：鍵盤、字級、色彩、響應式版面與目前已知限制。本站未宣稱通過檢測認證。">
+<meta name="theme-color" content="#1f4a3a">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@600;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="a11y">
+<a class="skip" href="#content">跳至主要內容</a>
+<div class="topbar"><div class="wrap"><span id="today">日期載入中</span><span class="tools"><span class="fs" role="group" aria-label="字級"><span class="fs-label">字級</span><button type="button" data-fs-set="sm" aria-pressed="false">小</button><button type="button" data-fs-set="md" aria-pressed="true">中</button><button type="button" data-fs-set="lg" aria-pressed="false">大</button></span><span id="upd">示例版面</span></span></div></div>
+<div class="bands" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+<header class="masthead"><div class="wrap"><a href="index.html" class="brand"><span class="mark" aria-hidden="true">原</span><span><b>原住民全球新聞網</b><small>INDIGENOUS PEOPLES GLOBAL NEWS</small></span></a><p class="tagline">臺灣十六族與全球原住民族新聞</p></div></header>
+<nav class="utilnav" aria-label="網站分區"><div class="wrap">
+<a href="index.html" data-nav="home">新聞首頁</a>
+<a href="about.html" data-nav="about">關於我們</a>
+<a href="nations.html" data-nav="nations">十六族</a>
+<a href="organization.html" data-nav="org">組織與聯絡</a>
+<a href="accessibility.html" data-nav="a11y">無障礙</a>
+</div></nav>
+<nav class="catnav" aria-label="新聞分類"><div class="wrap">
+<a href="index.html#首頁">首頁</a>
+<a href="index.html#族群文化">族群文化</a>
+<a href="index.html#部落新聞">部落新聞</a>
+<a href="index.html#語言復振">語言復振</a>
+<a href="index.html#傳統祭儀">傳統祭儀</a>
+<a href="index.html#土地與權益">土地與權益</a>
+<a href="index.html#國際原住民新聞">國際原住民新聞</a>
+<a href="index.html#政策與補助">政策與補助</a>
+</div></nav>
+<main id="content" class="wrap prose">
+<nav class="crumb" aria-label="麵包屑"><a href="index.html">首頁</a> · <span aria-current="page">無障礙</span></nav>
+<h1>無障礙</h1>
+<p class="lede">本站以無障礙網頁的常見要求來製作，方向對齊 WCAG 2.1 AA。這份說明列出已經做到的項目與已知限制，<strong>不是檢測合格證書</strong>。</p>
+
+<h2>已經做到的</h2>
+<ul>
+<li>頁面語言為 <code>zh-Hant-TW</code>，主要內文是繁體中文。</li>
+<li>每個頁面有一個主標題，關於我們、十六族、組織與無障礙頁可在沒有 JavaScript 時閱讀。</li>
+<li>頁首有「跳至主要內容」。導覽分成網站分區與新聞分類，目前位置用 <code>aria-current</code> 標示。</li>
+<li>可用鍵盤操作連結、分類、字級、搜尋、載入更多、摘要與聯絡表單。焦點有明顯外框。</li>
+<li>右上角字級分為小、中、大，記在這臺裝置的瀏覽器裡，不傳到伺服器。瀏覽器本身的縮放也沒有被關掉。</li>
+<li>分類除了顏色，還有文字名稱。【示例】徽章同時有文字，不只靠顏色。</li>
+<li>內文對比以深色文字配淺色紙張為主。分類標籤用深底白字。</li>
+<li>版面在約 900 畫素與 640 畫素兩段改為單欄，分類列可以橫向捲動，按鈕高度不小於 44 畫素。</li>
+<li>表單控制項都有標籤。送出失敗時，錯誤以文字列出。</li>
+<li>尊重系統的「減少動態效果」。沒有自動播放的聲音或影片。</li>
+<li>十六族導讀用文字，不把民族做成裝飾圖，也不畫傳統領域地圖。</li>
+</ul>
+
+<h2>響應式版面</h2>
+<p>桌面版是報頭、分類列、頭條加焦點、左欄分類與右欄來源。寬度降到 900 畫素以下時，焦點、側欄與十六族卡片改成上下排列。640 畫素以下，新聞卡改為一欄，較長的摘要先收成三行，並出現「展開摘要」。</p>
+
+<h2>已知限制</h2>
+<ul>
+<li>新聞列表、搜尋與摘要展開需要 JavaScript。停用腳本時，靜態頁面仍可讀。</li>
+<li>聯絡表單是示例，沒有後端，也不能用它完成正式申訴。</li>
+<li>尚未委託第三方做出具報告的無障礙檢測。若標案要求檢測報告，應在正式網址上另案辦理。</li>
+<li>字型檔由瀏覽器向字型服務索取。載入失敗時改用系統的黑體與明體。</li>
+</ul>
+
+<h2>問題回報</h2>
+<p>若鍵盤無法到達某個區塊，或字級造成重疊，請用<a href="organization.html">組織與聯絡</a>頁的示例表單記下頁面名稱與操作方式。該表單目前不會把訊息送出；正式信箱公布後，同一頁會改接真實窗口。</p>
+</main>
+<footer><div class="wrap footer-grid">
+<div><b>原住民全球新聞網</b><p>面向臺灣原住民族十六族與全球原住民族議題。目前刊出的新聞稿全部是示例，不是已發生的事件。</p></div>
+<nav aria-label="頁尾"><p class="foot-h">網站分區</p><a href="index.html">新聞首頁</a><a href="about.html">關於我們</a><a href="nations.html">十六族</a><a href="organization.html">組織與聯絡</a><a href="accessibility.html">無障礙</a></nav>
+<div><p class="foot-h">經營單位</p><p>© 2026 仁傳媒有限公司</p><p>同一經營單位另設有<a href="https://tommyliu2009.github.io/immigrant-news/" rel="noopener noreferrer">新住民&amp;新移民全球新聞網</a>。</p></div>
+</div></footer>
+<script src="common.js"></script>
+</body>
+</html>
