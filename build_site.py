@@ -50,6 +50,8 @@ def pub(v):
     }
     if v.get('url'):
         o['url'] = v['url']
+    if v.get('topic'):
+        o['topic'] = v['topic']
     if v.get('nation'):
         o['nation'] = v['nation']
     if v.get('nationId'):
