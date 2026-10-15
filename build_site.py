@@ -10,6 +10,8 @@ CATS = ['族群文化', '部落新聞', '語言復振', '傳統祭儀', '土地�
 BANNED = ['受訪者表示', '部長表示', '主委表示', '根據本報採訪', '本報訊']
 
 db = json.load(open('news_db.json'))
+import sys as _s; _s.path.insert(0, '/workspace/shared-data'); import news_filter  # 共用過濾：刪檔名／網址／行政公告等，修正標題
+db = news_filter.clean_db(db, 'news_db.json', site='indigenous-news')
 st = json.load(open('source_status.json'))
 ok = [v for v in db.values() if v.get('summary_ok') and 50 <= len(v.get('summary', '')) <= 200]
 errors = []
