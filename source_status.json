@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16 05:23",
+ "updated": "2026-10-16 05:30",
  "sources": {
   "內政部移民署": {
    "ok": true,
@@ -39,7 +39,7 @@
   },
   "官方/中央社索引 (site:cip.gov.tw)": {
    "ok": true,
-   "note": "候選 76 則"
+   "note": "候選 77 則"
   },
   "官方/中央社索引 (site:moc.gov.tw)": {
    "ok": false,
@@ -51,7 +51,7 @@
   },
   "官方/中央社索引 (site:gov.tw)": {
    "ok": true,
-   "note": "候選 117 則"
+   "note": "候選 118 則"
   },
   "索引 ntpc.gov.tw": {
    "ok": true,
@@ -67,7 +67,7 @@
   },
   "索引 tainan.gov.tw": {
    "ok": true,
-   "note": "相關 13"
+   "note": "相關 12"
   },
   "索引 kcg.gov.tw": {
    "ok": true,
@@ -111,7 +111,7 @@
   },
   "索引 pthg.gov.tw": {
    "ok": true,
-   "note": "相關 11"
+   "note": "相關 10"
   },
   "索引 e-land.gov.tw": {
    "ok": true,
@@ -151,11 +151,11 @@
   },
   "_原文取不到發布日（未收錄）": {
    "ok": true,
-   "note": "59 則"
+   "note": "57 則"
   },
   "_原文無法讀取的網站（未收錄）": {
    "ok": false,
-   "note": "www.taitungcity.gov.tw 2則(ReadTimeout); www.ner.gov.tw 1則(SSLError); www.ttcpb.gov.tw 1則(HTTP 403); civil.yunlin.gov.tw 1則(HTTP 403); singang.cyhg.gov.tw 1則(SSLError); minsyong.cyhg.gov.tw 1則(SSLError); www.pthg.gov.tw 10則(SSLError); www.kinmen.gov.tw 1則(SSLError)"
+   "note": "singang.cyhg.gov.tw 1則(SSLError); www.ner.gov.tw 2則(SSLError); www.ttcpb.gov.tw 1則(HTTP 403); civil.yunlin.gov.tw 1則(HTTP 403); minsyong.cyhg.gov.tw 1則(SSLError); www.pthg.gov.tw 9則(SSLError); www.kinmen.gov.tw 1則(SSLError)"
   }
  }
 }
