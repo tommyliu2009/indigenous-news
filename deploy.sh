@@ -4,6 +4,7 @@
 #       ./deploy.sh publish        只重建網站並部署（補寫摘要、apply_summaries.py 之後用）
 set -euo pipefail
 cd "$(dirname "$0")"
+source /workspace/handoff/repo_lock.sh indigenous-news indigenous_news   # 程式鎖＋AI 鎖（RULES §7、§14，2026-10-20）
 if [ "${1:-}" != "publish" ]; then python3 fetch_news.py "${1:-3}"; python3 fetch_industry.py "${1:-3}" || echo "產業報導抓取失敗（不影響其他新聞）"; fi
 python3 fetch_industry.py --retag   # 重新標記「產業報導」
 python3 extras.py || echo "補助／標案資訊更新失敗，沿用上一版 extras.js"   # 讀當時最新的補助王、標案王資料
