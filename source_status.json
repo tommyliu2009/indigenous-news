@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01 05:22",
+ "updated": "2026-11-02 05:20",
  "sources": {
   "內政部移民署": {
    "ok": true,
@@ -31,7 +31,7 @@
   },
   "中央社-國際": {
    "ok": true,
-   "note": "20 則，相關 1"
+   "note": "20 則，相關 0"
   },
   "中央社-生活": {
    "ok": true,
@@ -39,7 +39,7 @@
   },
   "官方/中央社索引 (site:cip.gov.tw)": {
    "ok": true,
-   "note": "候選 82 則"
+   "note": "候選 59 則"
   },
   "官方/中央社索引 (site:moc.gov.tw)": {
    "ok": false,
@@ -51,23 +51,23 @@
   },
   "官方/中央社索引 (site:gov.tw)": {
    "ok": true,
-   "note": "候選 101 則"
+   "note": "候選 82 則"
   },
   "索引 ntpc.gov.tw": {
    "ok": true,
-   "note": "相關 2"
+   "note": "相關 0"
   },
   "索引 tycg.gov.tw": {
    "ok": true,
-   "note": "相關 5"
+   "note": "相關 1"
   },
   "索引 taichung.gov.tw": {
    "ok": true,
-   "note": "相關 8"
+   "note": "相關 5"
   },
   "索引 tainan.gov.tw": {
    "ok": true,
-   "note": "相關 0"
+   "note": "相關 1"
   },
   "索引 kcg.gov.tw": {
    "ok": true,
@@ -75,7 +75,7 @@
   },
   "索引 klcg.gov.tw": {
    "ok": true,
-   "note": "相關 5"
+   "note": "相關 7"
   },
   "索引 hccg.gov.tw": {
    "ok": true,
@@ -87,11 +87,11 @@
   },
   "索引 miaoli.gov.tw": {
    "ok": true,
-   "note": "相關 1"
+   "note": "相關 0"
   },
   "索引 chcg.gov.tw": {
    "ok": true,
-   "note": "相關 9"
+   "note": "相關 6"
   },
   "索引 nantou.gov.tw": {
    "ok": true,
@@ -107,23 +107,23 @@
   },
   "索引 cyhg.gov.tw": {
    "ok": true,
-   "note": "相關 5"
+   "note": "相關 2"
   },
   "索引 pthg.gov.tw": {
    "ok": true,
-   "note": "相關 2"
+   "note": "相關 1"
   },
   "索引 e-land.gov.tw": {
    "ok": true,
-   "note": "相關 2"
+   "note": "相關 1"
   },
   "索引 hl.gov.tw": {
    "ok": true,
-   "note": "相關 3"
+   "note": "相關 1"
   },
   "索引 taitung.gov.tw": {
    "ok": true,
-   "note": "相關 4"
+   "note": "相關 5"
   },
   "索引 penghu.gov.tw": {
    "ok": true,
@@ -131,7 +131,7 @@
   },
   "索引 kinmen.gov.tw": {
    "ok": true,
-   "note": "相關 1"
+   "note": "相關 0"
   },
   "索引 matsu.gov.tw": {
    "ok": true,
@@ -151,11 +151,11 @@
   },
   "_原文取不到發布日（未收錄）": {
    "ok": true,
-   "note": "35 則"
+   "note": "22 則"
   },
   "_原文無法讀取的網站（未收錄）": {
    "ok": false,
-   "note": "dph.tycg.gov.tw 1則(HTTP 428); aborigine.taitung.gov.tw 2則(SSLError); minsyong.cyhg.gov.tw 1則(SSLError); www.taitung.gov.tw 1則(SSLError); www.pthg.gov.tw 2則(SSLError); www.shengang.taichung.gov.tw 1則(SSLError); civil.yunlin.gov.tw 1則(HTTP 403); lutsau.cyhg.gov.tw 1則(SSLError); budai.cyhg.gov.tw 1則(SSLError)"
+   "note": "minsyong.cyhg.gov.tw 1則(SSLError); www.shengang.taichung.gov.tw 1則(HTTP 410); civil.yunlin.gov.tw 1則(HTTP 403)"
   }
  }
 }
