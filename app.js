@@ -76,7 +76,7 @@
       });
       h += '</ul>';
     });
-    h += '</div><div class="box"><h2>最新示例</h2><ol class="latest">';
+    h += '</div><div class="box"><h2>最新消息</h2><ol class="latest">';
     N.slice(0, 8).forEach(function (n) {
       h += '<li><a href="' + href(n) + '">' + esc(n.title) + '</a><time>' + esc(n.date) + '｜' + esc(n.unit) + '</time></li>';
     });
@@ -103,7 +103,7 @@
         '<p class="sum" id="' + sid + '">' + esc(l.summary) + '</p>' +
         '<button type="button" class="tog" aria-expanded="false" aria-controls="' + sid + '">展開摘要</button>' +
         sourceLine(l) + '</article>';
-      $('#subs').innerHTML = '<h2 class="kicker">焦點示例</h2>' + N.slice(1, 5).map(function (n) {
+      $('#subs').innerHTML = '<h2 class="kicker">焦點</h2>' + N.slice(1, 5).map(function (n) {
         return '<article class="subh">' + meta(n) + '<h3><a href="' + href(n) + '">' + esc(n.title) + '</a></h3></article>';
       }).join('');
     }
@@ -114,7 +114,7 @@
       if (grid) grid.innerHTML = rows.map(function (n) { return card(n); }).join('');
     });
     markNav('首頁');
-    announce('新聞首頁，共 ' + N.length + ' 則示例稿');
+    announce('新聞首頁，共 ' + N.length + ' 則');
     side();
     folds();
   }
@@ -218,7 +218,7 @@
     root.innerHTML = disclaimer + '<div class="article-body">' + meta(n) + '<h2>' + esc(n.title) + '</h2><p class="sum">' + esc(n.summary) + '</p>' + sourceLine(n) + '</div>';
     var more = N.filter(function (x) { return x.category === n.category && x.id !== n.id; }).slice(0, 4);
     if (related) {
-      related.innerHTML = '<div class="box"><h2>同分類示例</h2><ol class="latest">' + more.map(function (x) {
+      related.innerHTML = '<div class="box"><h2>同分類稿件</h2><ol class="latest">' + more.map(function (x) {
         return '<li><a href="' + href(x) + '">' + esc(x.title) + '</a><time>' + esc(x.date) + '</time></li>';
       }).join('') + '</ol></div><div class="box"><h2>回到分類</h2><p><a href="index.html#' + esc(n.category) + '">' + esc(n.category) + '</a></p></div>';
     }
@@ -233,7 +233,7 @@
   var upd = $('#upd');
   if (upd && typeof UPDATED === 'string') upd.textContent = '資料更新：' + UPDATED;
   var count = $('#sample-count');
-  if (count) count.textContent = String(N.length);
+  if (count) count.textContent = String(N.filter(function (n) { return n.sample; }).length);
 
   var form = $('#searchform');
   if (form) {

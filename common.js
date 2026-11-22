@@ -50,7 +50,7 @@
     }
     form.reset();
     status.className = 'callout ok';
-    status.textContent = '這是功能示例：訊息只留在這個畫面，沒有送到伺服器，也沒有工作人員會讀到。正式信箱公布前，請勿留下身分證字號或其他敏感資料。';
+    status.textContent = '這個表單目前不會送出：訊息只留在這個畫面，沒有送到伺服器。需要聯絡請寄 renhe74123@gmail.com。請勿留下身分證字號或其他敏感資料。';
     status.focus();
   });
 })();
