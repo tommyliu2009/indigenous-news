@@ -45,7 +45,7 @@ a:hover{color:var(--brand-2)}
 .brand{display:flex;align-items:center;gap:14px;text-decoration:none}
 .brand:hover{color:inherit}
 .mark{background:linear-gradient(#c6a15a,#c6a15a) 0 0/100% 3px no-repeat,linear-gradient(#c6a15a,#c6a15a) 0 100%/100% 3px no-repeat,#1f4a3a;color:#f6f3ec;font:700 30px/1 var(--serif);width:54px;height:54px;display:grid;place-items:center;border-radius:4px;flex:none}
-.brand b{display:block;font:900 clamp(1.35rem,2.4vw,2rem)/1.25 var(--serif);letter-spacing:.02em}
+.brand b,.brand .brand-h1{display:block;margin:0;font:900 clamp(1.35rem,2.4vw,2rem)/1.25 var(--serif);letter-spacing:.02em}
 .brand small{display:block;color:var(--mute);letter-spacing:.18em;font-size:.72rem;margin-top:2px}
 .tagline{margin:0 0 4px;color:var(--mute);font-size:.95rem;text-align:right}
 
